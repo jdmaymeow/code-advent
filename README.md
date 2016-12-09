@@ -7,10 +7,12 @@ A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
+This is updated cakephp skeleton application to make easier setup process for ca plugins.
+
 ## Installation
 
 1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+2. Run `php composer.phar create-project --prefer-dist jdmaymeow/code-advent [app_name]`.
 
 If Composer is installed globally, run
 ```bash
@@ -23,3 +25,7 @@ You should now be able to visit the path to where you installed the app and see 
 
 Read and edit `config/app.php` and setup the 'Datasources' and any other
 configuration relevant for your application.
+
+## Code Advent Configuration file
+
+Code Advent (CA) plugins will use this file to read some configurations. You can edit this file at `config/codeadvent.json`.

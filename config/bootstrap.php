@@ -55,6 +55,7 @@ use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
 use Cake\Core\App;
 use Cake\Core\Configure;
+use Cake\Core\Configure\Engine\JsonConfig;
 use Cake\Core\Configure\Engine\PhpConfig;
 use Cake\Core\Plugin;
 use Cake\Database\Type;
@@ -87,6 +88,16 @@ try {
  * shared configuration.
  */
 //Configure::load('app_local', 'default');
+
+/**
+ * Code Advent configuraiton file
+ */
+try {
+    Configure::config('codeadvent', new JsonConfig());
+    Configure::load('codeadvent', 'codeadvent', false);
+} catch (\Exception $e) {
+    exit($e->getMessage() . "\n");
+}
 
 /*
  * When debug = false the metadata cache should last
@@ -223,3 +234,5 @@ if (Configure::read('debug')) {
 }
 
 Plugin::load('CakeAuth', ['bootstrap' => false, 'routes' => true]);
+
+Plugin::load('CakeShrink', ['bootstrap' => false, 'routes' => true]);
