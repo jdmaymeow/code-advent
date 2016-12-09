@@ -1,4 +1,4 @@
-# CakePHP Application Skeleton
+# CodeAdvent 2016 Application Skeleton
 
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
@@ -14,7 +14,7 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 If Composer is installed globally, run
 ```bash
-composer create-project --prefer-dist cakephp/app [app_name]
+composer create-project --prefer-dist jdmaymeow/code-advent [app_name]
 ```
 
 You should now be able to visit the path to where you installed the app and see the default home page.

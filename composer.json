@@ -1,7 +1,7 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "http://cakephp.org",
+    "name": "jdmaymeow/code-advent",
+    "description": "CodeAdvent 2016 skeleton app for CakePHP",
+    "homepage": "https://jdmaymeow.com/code-advent/2016/",
     "type": "project",
     "license": "MIT",
     "require": {
