@@ -236,3 +236,7 @@ if (Configure::read('debug')) {
 Plugin::load('CakeAuth', ['bootstrap' => false, 'routes' => true]);
 
 Plugin::load('CakeShrink', ['bootstrap' => false, 'routes' => true]);
+
+Plugin::load('CakeTaxonomy', ['bootstrap' => false, 'routes' => true]);
+
+Plugin::load('CakeUtility', ['bootstrap' => false, 'routes' => true]);
