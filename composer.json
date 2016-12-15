@@ -27,7 +27,8 @@
             "CakeAuth\\": "./plugins/CakeAuth/src",
             "CakeShrink\\": "./plugins/CakeShrink/src",
             "CakeTaxonomy\\": "./plugins/CakeTaxonomy/src",
-            "CakeUtility\\": "./plugins/CakeUtility/src"
+            "CakeUtility\\": "./plugins/CakeUtility/src",
+            "CakeContent\\": "./plugins/CakeContent/src"
         }
     },
     "autoload-dev": {
@@ -37,7 +38,8 @@
             "CakeAuth\\Test\\": "./plugins/CakeAuth/tests",
             "CakeShrink\\Test\\": "./plugins/CakeShrink/tests",
             "CakeTaxonomy\\Test\\": "./plugins/CakeTaxonomy/tests",
-            "CakeUtility\\Test\\": "./plugins/CakeUtility/tests"
+            "CakeUtility\\Test\\": "./plugins/CakeUtility/tests",
+            "CakeContent\\Test\\": "./plugins/CakeContent/tests"
         }
     },
     "scripts": {

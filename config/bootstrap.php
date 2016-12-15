@@ -240,3 +240,5 @@ Plugin::load('CakeShrink', ['bootstrap' => false, 'routes' => true]);
 Plugin::load('CakeTaxonomy', ['bootstrap' => false, 'routes' => true]);
 
 Plugin::load('CakeUtility', ['bootstrap' => false, 'routes' => true]);
+
+Plugin::load('CakeContent', ['bootstrap' => false, 'routes' => true]);
